@@ -21,6 +21,14 @@
 		C04EB7E5190FBCFF00A8E171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04EB7C7190FBCFF00A8E171 /* UIKit.framework */; };
 		C04EB7ED190FBCFF00A8E171 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7EB190FBCFF00A8E171 /* InfoPlist.strings */; };
 		C04EB7EF190FBCFF00A8E171 /* BeatMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EB7EE190FBCFF00A8E171 /* BeatMakerTests.m */; };
+		C04EB7F9190FBE6B00A8E171 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04EB7F8190FBE6B00A8E171 /* AudioToolbox.framework */; };
+		C04EB800190FC98800A8E171 /* china.wav in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7FA190FC98800A8E171 /* china.wav */; };
+		C04EB801190FC98800A8E171 /* crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7FB190FC98800A8E171 /* crash.wav */; };
+		C04EB802190FC98800A8E171 /* hi_hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7FC190FC98800A8E171 /* hi_hat.wav */; };
+		C04EB803190FC98800A8E171 /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7FD190FC98800A8E171 /* kick.wav */; };
+		C04EB804190FC98800A8E171 /* ride.wav in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7FE190FC98800A8E171 /* ride.wav */; };
+		C04EB805190FC98800A8E171 /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = C04EB7FF190FC98800A8E171 /* snare.wav */; };
+		D24FFAA8824E55487E15114B /* BeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D24FF92D1B89B1F4D4FAC74F /* BeatView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		C04EB7EA190FBCFF00A8E171 /* BeatMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeatMakerTests-Info.plist"; sourceTree = "<group>"; };
 		C04EB7EC190FBCFF00A8E171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C04EB7EE190FBCFF00A8E171 /* BeatMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatMakerTests.m; sourceTree = "<group>"; };
+		C04EB7F8190FBE6B00A8E171 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C04EB7FA190FC98800A8E171 /* china.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = china.wav; sourceTree = "<group>"; };
+		C04EB7FB190FC98800A8E171 /* crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crash.wav; sourceTree = "<group>"; };
+		C04EB7FC190FC98800A8E171 /* hi_hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hi_hat.wav; sourceTree = "<group>"; };
+		C04EB7FD190FC98800A8E171 /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		C04EB7FE190FC98800A8E171 /* ride.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ride.wav; sourceTree = "<group>"; };
+		C04EB7FF190FC98800A8E171 /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare.wav; sourceTree = "<group>"; };
+		D24FF3F7833DE5505C621BF3 /* BeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeatView.h; sourceTree = "<group>"; };
+		D24FF92D1B89B1F4D4FAC74F /* BeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeatView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04EB7F9190FBE6B00A8E171 /* AudioToolbox.framework in Frameworks */,
 				C04EB7C6190FBCFF00A8E171 /* CoreGraphics.framework in Frameworks */,
 				C04EB7C8190FBCFF00A8E171 /* UIKit.framework in Frameworks */,
 				C04EB7C4190FBCFF00A8E171 /* Foundation.framework in Frameworks */,
@@ -101,6 +119,7 @@
 		C04EB7C2190FBCFF00A8E171 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C04EB7F8190FBE6B00A8E171 /* AudioToolbox.framework */,
 				C04EB7C3190FBCFF00A8E171 /* Foundation.framework */,
 				C04EB7C5190FBCFF00A8E171 /* CoreGraphics.framework */,
 				C04EB7C7190FBCFF00A8E171 /* UIKit.framework */,
@@ -119,6 +138,8 @@
 				C04EB7D9190FBCFF00A8E171 /* ViewController.m */,
 				C04EB7DB190FBCFF00A8E171 /* Images.xcassets */,
 				C04EB7CA190FBCFF00A8E171 /* Supporting Files */,
+				D24FF92D1B89B1F4D4FAC74F /* BeatView.m */,
+				D24FF3F7833DE5505C621BF3 /* BeatView.h */,
 			);
 			path = BeatMaker;
 			sourceTree = "<group>";
@@ -126,6 +147,12 @@
 		C04EB7CA190FBCFF00A8E171 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C04EB7FA190FC98800A8E171 /* china.wav */,
+				C04EB7FB190FC98800A8E171 /* crash.wav */,
+				C04EB7FC190FC98800A8E171 /* hi_hat.wav */,
+				C04EB7FD190FC98800A8E171 /* kick.wav */,
+				C04EB7FE190FC98800A8E171 /* ride.wav */,
+				C04EB7FF190FC98800A8E171 /* snare.wav */,
 				C04EB7CB190FBCFF00A8E171 /* BeatMaker-Info.plist */,
 				C04EB7CC190FBCFF00A8E171 /* InfoPlist.strings */,
 				C04EB7CF190FBCFF00A8E171 /* main.m */,
@@ -228,8 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04EB804190FC98800A8E171 /* ride.wav in Resources */,
+				C04EB805190FC98800A8E171 /* snare.wav in Resources */,
+				C04EB803190FC98800A8E171 /* kick.wav in Resources */,
+				C04EB800190FC98800A8E171 /* china.wav in Resources */,
+				C04EB802190FC98800A8E171 /* hi_hat.wav in Resources */,
 				C04EB7DC190FBCFF00A8E171 /* Images.xcassets in Resources */,
 				C04EB7CE190FBCFF00A8E171 /* InfoPlist.strings in Resources */,
+				C04EB801190FC98800A8E171 /* crash.wav in Resources */,
 				C04EB7D7190FBCFF00A8E171 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +285,7 @@
 				C04EB7DA190FBCFF00A8E171 /* ViewController.m in Sources */,
 				C04EB7D4190FBCFF00A8E171 /* AppDelegate.m in Sources */,
 				C04EB7D0190FBCFF00A8E171 /* main.m in Sources */,
+				D24FFAA8824E55487E15114B /* BeatView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +492,7 @@
 				C04EB7F4190FBCFF00A8E171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C04EB7F5190FBCFF00A8E171 /* Build configuration list for PBXNativeTarget "BeatMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +501,7 @@
 				C04EB7F7190FBCFF00A8E171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
